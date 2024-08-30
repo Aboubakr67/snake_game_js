@@ -48,7 +48,7 @@ function drawGame(game) {
   const headY = game.snake.body[0].y * 20; // Position Y de la tête
 
   const headImg = new Image();
-  headImg.src = "../img/snake.png"; // Chemin de l'image de la tête
+  headImg.src = "img/snake.png"; // Chemin de l'image de la tête
 
   headImg.onload = () => {
     ctx.save();
@@ -69,7 +69,7 @@ function drawGame(game) {
 
     // Dessine le corps du serpent
     const bodySerpent = new Image();
-    bodySerpent.src = "../img/body_snake.png"; // Chemin vers l'image du corps
+    bodySerpent.src = "img/body_snake.png"; // Chemin vers l'image du corps
 
     bodySerpent.onload = () => {
       // Ici pn cmmence à 1 pour ne pas redessiner la tête
