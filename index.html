@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/snake.ico" type="image/x-icon" />
+    <title>Snake</title>
+
+    <!-- Lien vers Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Lien vers Bootstrap JS et ses dépendances -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/index.css" />
+
+    <script src="js/index.js" defer></script>
+  </head>
+  <body
+    class="d-flex flex-column justify-content-center align-items-center vh-100 text-center bg-dark text-white"
+  >
+    <div class="container">
+      <h1 class="display-4 mb-4">Bienvenue dans le jeu Snake !</h1>
+      <button id="playButton" class="btn btn-lg btn-primary mb-4">Jouer</button>
+      <h2 class="mt-4">Meilleurs scores</h2>
+      <div id="scoreBoard" class="mt-2"></div>
+    </div>
+  </body>
+</html>

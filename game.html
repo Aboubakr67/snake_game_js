@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/snake.ico" type="image/x-icon" />
+    <title>Snake</title>
+
+    <link rel="stylesheet" href="css/game.css" />
+    <script src="js/script.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="game-container">
+        <div class="game-content">
+          <canvas id="gameCanvas"></canvas>
+          <div id="my_score"></div>
+          <button id="backButton" class="btn">Revenir à l'accueil</button>
+        </div>
+
+        <!-- Ajout des règles du jeu à droite -->
+        <div id="gameRules">
+          <h2>Règles du jeu</h2>
+          <ul>
+            <li>Règle 1 : Le corps suit la tête</li>
+            <li>
+              Règle 2 : Si on mange un fruit, le corps grandit de 1 et on marque
+              dix points
+            </li>
+            <li>Règle 3 : Si la tête mange le corps, c’est perdu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+/* body {
+  background-color: #282c34;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+canvas {
+  border: 2px solid #ffffff;
+  background-color: #000;
+}
+
+#my_score {
+  margin-top: 20px;
+  font-size: 2rem;
+  background-color: #1c1f24;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #61dafb;
+}
+
+#backButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#backButton:hover {
+  background-color: #52b3e1;
+} */
+
+/*   ! ----------------------- */
+
+/* body {
+  background-color: #282c34;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+canvas {
+  border: 2px solid #ffffff;
+  background-color: #000;
+}
+
+#my_score {
+  margin-top: 20px;
+  font-size: 2rem;
+  background-color: #1c1f24;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #61dafb;
+  text-align: center;
+}
+
+#backButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#gameRules {
+  margin-left: 20px; 
+  background-color: #1c1f24;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #61dafb;
+  max-width: 300px; 
+}
+
+#gameRules h2 {
+  margin-top: 0;
+}
+
+#gameRules ul {
+  padding-left: 20px; 
+} */
+
+body {
+  background-color: #282c34;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.game-container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.game-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  border: 2px solid #ffffff;
+  background-color: #000;
+}
+
+#my_score {
+  margin-top: 20px;
+  font-size: 2rem;
+  background-color: #1c1f24;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #61dafb;
+  text-align: center;
+}
+
+#backButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#gameRules {
+  margin-left: 40px; /* Espace entre le jeu et les règles */
+  background-color: #1c1f24;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #61dafb;
+  max-width: 300px; /* Limite la largeur de la boîte de règles */
+  margin-top: 50px;
+}
+
+#gameRules h2 {
+  margin-top: 0;
+}
+
+#gameRules ul {
+  padding-left: 20px; /* Ajoute un peu d'espace avant les puces de la liste */
+}
